@@ -6,7 +6,7 @@ class AllTest (unittest.TestCase):
     def runTest(self):
         """ Test addition and succeed. """
 
-        self.failUnless(1+1 == 2 , 'one plus one fails!')
+        self.failUnless(1+4 == 2 , 'one plus one fails!')
 
         self.failIf(1+1 != 2, 'one plus one fails again!')
 
