@@ -4,21 +4,21 @@ from exemplos.Calculadora import Calculadora
 
 class TestCalculadora(unittest.TestCase):
     
-    def test_comValorInicial(self):
+    def runTest(self):
         c = Calculadora(9.0)
         self.failUnlessEqual(9.3, c.valor, 'falha no construtor')
 
-    def test_semValorInicial(self):
+    def runTest1(self):
         c = Calculadora()
         self.assertEqual(0.0, c.valor)
 
-    def test_Soma(self):
+    def runTest2(self):
         c = Calculadora()
         c.soma(4)
         c.soma(10)
         self.assertEqual(14, c.valor)
 
-    def test_Subtracao(self):
+    def runTest3(self):
         c = Calculadora(10.0)
         c.subtracao(3.0)
         self.assertEqual(7.0, c.valor)
