@@ -25,7 +25,7 @@ class CalculadoraTest(unittest.TestCase):
 
 def suite():
     suite = unittest.TestSuite()
-    suite.addTest(TestCalculadora())
+    suite.addTest(CalculadoraTest())
     return suite
 
 if __name__ == '__main__':
