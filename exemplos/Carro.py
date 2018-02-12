@@ -8,10 +8,10 @@ class Carro(object):
         self.velocidade = 0;
 
     def ligar(self):
-        self.ligado = 'off'
+        self.ligado = 'on'
 
     def desligar(self, v):
-        self.ligado = 'on'
+        self.ligado = 'off'
     
     def acelerar(self):
         if self.ligado == 'on':
