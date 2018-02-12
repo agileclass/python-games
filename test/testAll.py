@@ -1,5 +1,6 @@
 import unittest
 
+from testCalculadora import CalculadoraTest
 
 class AllTest (unittest.TestCase):
 
@@ -15,6 +16,7 @@ class AllTest (unittest.TestCase):
 def suite():
     suite = unittest.TestSuite()
     suite.addTest(AllTest())
+    suite.addTest(CalculadoraTest())
     return suite
 
 if __name__ == '__main__':
