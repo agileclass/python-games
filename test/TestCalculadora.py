@@ -2,7 +2,7 @@ import unittest
 
 from exemplos.Calculadora import Calculadora
 
-class TestCalculadora(unittest.TestCase):
+class CalculadoraTest(unittest.TestCase):
     
     def runTest(self):
         c = Calculadora(9.0)
