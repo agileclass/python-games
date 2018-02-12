@@ -21,7 +21,7 @@ class CalculadoraTest(unittest.TestCase):
     def runTest3(self):
         c = Calculadora(10.0)
         c.subtracao(3.0)
-        self.assertEqual(7.0, c.valor)
+        self.assertEqual(7.1, c.valor)
 
 def suite():
     suite = unittest.TestSuite()
