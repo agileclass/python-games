@@ -1,10 +1,10 @@
 import unittest
 
-from exemplos.Calculadora import Calculadora
+from Calculadora import Calculadora
 
 class CalculadoraTest(unittest.TestCase):
     
-    def test_ConstrutorInializado(self):
+    def test_ConstrutorInicializado(self):
         c = Calculadora(9.0)
         self.assertEqual(9.0, c.valor)
 
@@ -22,13 +22,3 @@ class CalculadoraTest(unittest.TestCase):
         c = Calculadora(10.0)
         c.subtracao(3.0)
         self.assertEqual(7.0, c.valor)
-
-def suite():
-    suite = unittest.TestSuite()
-    suite.addTest(CalculadoraTest())
-    return suite
-
-if __name__ == '__main__':
-    runner = unittest.TextTestRunner()
-    test_suite = suite()
-    runner.run(test_suite)
