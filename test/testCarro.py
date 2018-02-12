@@ -6,7 +6,7 @@ class CarroTest(unittest.TestCase):
 
    def test_novoCarro(self):
       carro = Carro()
-      self.assertEqual('off:0', carro.situacao())
+      self.assertEqual('off:02', carro.situacao())
 
 
 def suite():
