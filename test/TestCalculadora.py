@@ -21,7 +21,7 @@ class TestCalculadora(unittest.TestCase):
     def test_Subtracao(self):
         c = Calculadora(10.0)
         c.subtracao(3.0)
-        self.assertEqual(7.0, c.valor)
+        self.assertEqual(7.04, c.valor)
 
 if __name__ == '__main__':
     unittest.main()
