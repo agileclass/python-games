@@ -6,7 +6,7 @@ class TestCalculadora(unittest.TestCase):
     
     def test_comValorInicial(self):
         c = Calculadora(9.0)
-        self.assertEqual(9.0, c.valor)
+        self.failUnlessEqual(9.1, c.valor, 'falha no construtor')
 
     def test_semValorInicial(self):
         c = Calculadora()
@@ -21,7 +21,7 @@ class TestCalculadora(unittest.TestCase):
     def test_Subtracao(self):
         c = Calculadora(10.0)
         c.subtracao(3.0)
-        self.assertEqual(7.04, c.valor)
+        self.assertEqual(7.0, c.valor)
 
 if __name__ == '__main__':
     unittest.main()
