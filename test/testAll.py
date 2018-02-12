@@ -6,7 +6,7 @@ class AllTest (unittest.TestCase):
 
     def runTest(self):
         """ Test addition and succeed. """
-        self.assertEqual(2,3)
+        self.assertEqual(2,2)
 
 def suite():
     suite = unittest.TestSuite()
