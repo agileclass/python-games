@@ -6,7 +6,7 @@ class CalculadoraTest(unittest.TestCase):
     
     def runTest(self):
         c = Calculadora(9.0)
-        self.failUnlessEqual(9.3, c.valor, 'falha no construtor')
+        self.failUnlessEqual(9.0, c.valor, 'falha no construtor')
 
     def runTest1(self):
         c = Calculadora()
