@@ -4,11 +4,15 @@ python:
 install:
   - pip3 install coveralls
 script:
-  python3 -m unittest discover -v exemplos
+  #python3 -m unittest discover -v exemplos
+  coverage run --source cookiecutter setup.py test
 
 after_success:
   coveralls
     
 notifications:
-  email: 
-    - botelhojp@gmail.com
+  email:
+    recipients:
+      - botelhojp@gmail.com
+    on_success: change
+    on_failure: always
