@@ -13,9 +13,3 @@ def ex_01_ler_arquivo_csv():
 
 print("01) Ler arquivo csv")
 ex_01_ler_arquivo_csv()
-
-class MyTest(unittest.TestCase):
-
-    def test(self):
-
-        self.assertEqual(3, 3)
