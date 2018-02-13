@@ -4,7 +4,7 @@ python:
 install:
   - pip3 install coveralls
 script:
-  coverage run -m unittest discover -v exemplos
+  coverage  run --omit=exemplos/test*  -m unittest discover -v exemplos
 
   #coverage report -m
 
