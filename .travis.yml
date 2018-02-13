@@ -4,10 +4,14 @@ python:
 install:
   - pip3 install coveralls
 
+addons:
+  sonarcloud:
+    organization: "agileclass" # the key of the org you chose at step #3
+    token:
+      secure: 506dbf36102244307fc8a422efbec1ed5ce4ae85 # encrypted value of your token
 
 script:
   - coverage  run --omit=exemplos/test*  -m unittest discover -v exemplos
-  - -Dsonar.projectKey=lab-python -Dsonar.organization=agileclass -Dsonar.sources=exemplos -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=506dbf36102244307fc8a422efbec1ed5ce4ae85
   - sonar-scanner
 
   #coverage report -m
