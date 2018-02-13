@@ -1,8 +1,9 @@
 # Laboratório Python
 
-[![Coverage Status](https://coveralls.io/repos/github/agileclass/lab-python/badge.svg?branch=master)](https://coveralls.io/github/agileclass/lab-python?branch=master)[![Build Status](https://travis-ci.org/agileclass/lab-python.svg?branch=master)](https://travis-ci.org/agileclass/lab-python)
+[![Coverage Status](https://coveralls.io/repos/github/agileclass/lab-python/badge.svg?branch=master)](https://coveralls.io/github/agileclass/lab-python?branch=master)[![Build Status](https://travis-ci.org/agileclass/lab-python.svg?branch=master)](https://travis-ci.org/agileclass/lab-python)[Sonar](https://sonarcloud.io/dashboard?id=lab-python)
 
-[https://sonarcloud.io/api/project_badges/measure?project=lab-python&metric=alert_status]
+[logo]: https://sonarcloud.io/api/project_badges/measure?project=lab-python&metric=alert_status "Logo Title Text 2"
+
 
 
 
