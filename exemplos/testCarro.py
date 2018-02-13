@@ -10,11 +10,11 @@ class CarroTest(unittest.TestCase):
 
    def test_ligar(self):
       carro = Carro()
-      carro.ligar();
+      carro.ligar()
       self.assertEqual('on:0', carro.painel())
 
    def test_acelerar(self):
       carro = Carro()
-      carro.ligar();
+      carro.ligar()
       carro.acelerar()
       self.assertEqual('on:10', carro.painel())
