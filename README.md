@@ -1,6 +1,6 @@
 # Laboratório Python
 
-[![Build Status](https://travis-ci.org/agileclass/lab-python.svg?branch=master)](https://travis-ci.org/agileclass/lab-python)[Sonar](https://sonarcloud.io/dashboard?id=lab-python)[![Coverage Status](https://coveralls.io/repos/github/agileclass/lab-python/badge.svg?branch=master)](https://coveralls.io/github/agileclass/lab-python?branch=master)[![N|Solid](https://sonarcloud.io/api/project_badges/measure?project=lab-python&metric=alert_status)](https://sonarcloud.io/dashboard?id=lab-python)
+[![Build Status](https://travis-ci.org/agileclass/lab-python.svg?branch=master)](https://travis-ci.org/agileclass/lab-python)[![Coverage Status](https://coveralls.io/repos/github/agileclass/lab-python/badge.svg?branch=master)](https://coveralls.io/github/agileclass/lab-python?branch=master)[![N|Solid](https://sonarcloud.io/api/project_badges/measure?project=lab-python&metric=alert_status)](https://sonarcloud.io/dashboard?id=lab-python)
 
 - IDE: https://code.visualstudio.com/download
 - Git: https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git
