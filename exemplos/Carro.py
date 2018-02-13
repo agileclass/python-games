@@ -27,6 +27,6 @@ class Carro(object):
         else:
             return -1
 
-    def situacao(self):
+    def painel(self):
         #return self.ligado + ":" + self.velocidade
         return self.ligado + ":"+ str(self.velocidade)
