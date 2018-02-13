@@ -10,7 +10,7 @@ class Carro(object):
     def ligar(self):
         self.ligado = 'on'
 
-    def desligar(self, v):
+    def desligar(self):
         self.ligado = 'off'
     
     def acelerar(self):

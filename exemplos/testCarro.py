@@ -13,8 +13,25 @@ class CarroTest(unittest.TestCase):
       carro.ligar()
       self.assertEqual('on:0', carro.painel())
 
+   def test_delisgar(self):
+      carro = Carro()
+      carro.desligar()
+      self.assertEqual('off:0', carro.painel())
+
    def test_acelerar(self):
       carro = Carro()
       carro.ligar()
       carro.acelerar()
+      self.assertEqual('on:10', carro.painel())
+
+   def test_freiar(self):
+      carro = Carro()
+      carro.ligar()
+      carro.acelerar()
+      carro.acelerar()
+      carro.acelerar()
+      self.assertEqual('on:30', carro.painel())
+      carro.freiar()
+      self.assertEqual('on:20', carro.painel())
+      carro.freiar()
       self.assertEqual('on:10', carro.painel())
