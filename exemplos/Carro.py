@@ -1,6 +1,7 @@
 class Carro(object):
 
     ligado = None
+    
     velocidade = 0
 
     def __init__(self):
