@@ -9,5 +9,3 @@ def ex_01_ler_arquivo_csv():
         for row in reader:
             linha.append(row)
     return linha
-
-ex_01_ler_arquivo_csv()

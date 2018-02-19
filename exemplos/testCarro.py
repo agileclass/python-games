@@ -35,3 +35,7 @@ class CarroTest(unittest.TestCase):
       self.assertEqual('on:20', carro.painel())
       carro.freiar()
       self.assertEqual('on:10', carro.painel())
+
+if __name__ == '__main__':
+    print("main")
+
