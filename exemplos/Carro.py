@@ -5,7 +5,7 @@ class Carro(object):
 
     def __init__(self):
         self.ligado = 'off'
-        self.velocidade = 0;
+        self.velocidade = 0
 
     def ligar(self):
         self.ligado = 'on'
@@ -28,5 +28,4 @@ class Carro(object):
             return -1
 
     def painel(self):
-        #return self.ligado + ":" + self.velocidade
         return self.ligado + ":"+ str(self.velocidade)
