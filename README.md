@@ -19,3 +19,7 @@
   >git push 
   - Aceitar chave pública
   > ssh-add
+
+- Executar Testes
+
+>coverage  run --omit=Games/test*  -m unittest discover -v Games

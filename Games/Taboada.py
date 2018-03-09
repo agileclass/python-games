@@ -1,4 +1,4 @@
-class Calculadora(object):
+class Taboada(object):
 
     valor = None
 
@@ -10,3 +10,6 @@ class Calculadora(object):
 
     def subtracao(self, v):
         self.valor = self.valor - v
+
+if __name__ == '__main__':
+    t = Taboada();
