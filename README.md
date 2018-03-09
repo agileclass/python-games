@@ -23,3 +23,9 @@
 - Executar Testes
 
 >coverage  run --omit=Games/test*  -m unittest discover -v Games
+
+- Cobertura de Código
+
+> coverage report -m
+
+> coverage html
