@@ -1,27 +1,25 @@
 import unittest
 
+
 from Taboada import Taboada
 
 class TaboadaTest(unittest.TestCase):
     
     def test_ConstrutorInicializado(self):
-        c = Taboada(9.0)
-        self.assertEqual(9.0, c.valor)
+        t = Taboada()
+        self.assertEqual(0, t.getV1())
+        self.assertEqual(0, t.getV2())
 
-    def test_ConstrutorVazio(self):
-        c = Taboada()
-        self.assertEqual(0.0, c.valor)
+    def test_Desafio(self):
+        t = Taboada()
+        t.gerarDesafio()
+        self.assertNotEqual(0, t.getV1())
+        self.assertNotEqual(0, t.getV2())
 
-    def test_Soma(self):
-        c = Taboada()
-        c.soma(4)
-        c.soma(10)
-        self.assertEqual(14, c.valor)
-
-    def test_Subtracao(self):
-        c = Taboada(10.0)
-        c.subtracao(3.0)
-        self.assertEqual(7.0, c.valor)
+    def test_Resultado(self):
+        t = Taboada()
+        t.gerarDesafio()
+        self.assertEqual(t.getV1() * t.getV2(), t.getResultado())
 
 if __name__ == '__main__':
     unittest.main()

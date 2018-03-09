@@ -1,15 +1,36 @@
+import random
+
 class Taboada(object):
 
-    valor = None
+    v1 = None
+    v2 = None
 
-    def __init__(self, valorInicial=0.0):
-        self.valor = valorInicial
+    def __init__(self):
+        self.v1=0
+        self.v2=0
 
-    def soma(self, v):
-        self.valor = self.valor + v
+    def gerarDesafio(self):
+        self.v1=random.randrange(1, 9)
+        self.v2=random.randrange(1, 9)
 
-    def subtracao(self, v):
-        self.valor = self.valor - v
+    def getV1(self):
+        return self.v1;
+
+    def getV2(self):
+        return self.v2
+
+    def getResultado(self):
+        return self.v1 * self.v2
 
 if __name__ == '__main__':
+    print("BEM VINDO AO JOGO TABOADA")
     t = Taboada();
+    t.gerarDesafio();
+   
+
+    resultado = input("Quanto é: " + str(t.v1) + "x" + str(t.v2) + "?")
+
+    if resultado == str(t.getResultado()):
+        print('Parabéns!')
+    else:
+        print('Errado, ' + str(t.v1) + "x" + str(t.v2) + " é igual a " + str(t.getResultado()))

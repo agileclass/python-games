@@ -22,9 +22,14 @@
 
 - Executar Testes
 
->coverage  run --omit=Games/test*  -m unittest discover -v Games
+>python3 -m unittest discover Games
+
+
 
 - Cobertura de Código
+
+
+>coverage  run --omit=Games/test*  -m unittest discover -v Games
 
 > coverage report -m
 
