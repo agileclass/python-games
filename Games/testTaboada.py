@@ -1,6 +1,5 @@
 import unittest
 
-
 from Taboada import Taboada
 
 class TaboadaTest(unittest.TestCase):

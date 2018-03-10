@@ -24,12 +24,9 @@ class Taboada(object):
 
 if __name__ == '__main__':
     print("BEM VINDO AO JOGO TABOADA")
-    t = Taboada();
-    t.gerarDesafio();
-   
-
-    resultado = input("Quanto é: " + str(t.v1) + "x" + str(t.v2) + "?")
-
+    t = Taboada()
+    t.gerarDesafio()
+    resultado = input("Quanto é: " + str(t.v1) + "x" + str(t.v2) + "? ")
     if resultado == str(t.getResultado()):
         print('Parabéns!')
     else:
