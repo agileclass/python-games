@@ -1,4 +1,7 @@
-# Laboratório Python
+﻿# Laboratório Python
+
+# Rodrigo
+# Alan
 
 - IDE: https://code.visualstudio.com/download
 - Git: https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git
