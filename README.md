@@ -20,4 +20,4 @@
 
 - Executar Testes
 
->python3 -m unittest discover Games
+>py -m unittest discover Games
