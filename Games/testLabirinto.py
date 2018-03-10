@@ -1,6 +1,6 @@
 import unittest
 
-from Labirinto import labirinto
+from Labirinto import Labirinto
 
 class LaribirintoTest(unittest.TestCase):
     
