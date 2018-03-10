@@ -24,7 +24,7 @@ class Taboada(object):
 
 if __name__ == '__main__':
     print("BEM VINDO AO JOGO TABOADA")
-    t = Taboada()
+    t = Taboada() 
     pontuacao = 0
     continua = True
     while (continua):
@@ -32,7 +32,7 @@ if __name__ == '__main__':
         resultado = input("Quanto é: " + str(t.v1) + "x" + str(t.v2) + "? ")
         if resultado == str(t.getResultado()):
             print('Parabéns!')
-            pontuacao = pontuacao + 1
+            pontuacao1 = pontuacao + 1
         else:
             print('Errado, ' + str(t.v1) + "x" + str(t.v2) + " é igual a " + str(t.getResultado()))
             print('Pontuação: ' + str(pontuacao))
