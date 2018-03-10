@@ -3,7 +3,7 @@ import random
 class Taboada(object):
 
     v1 = None
-    v2 = None
+    v2 = None;
 
     def __init__(self):
         self.v1=0
