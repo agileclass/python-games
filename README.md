@@ -1,36 +1,79 @@
 ﻿# Laboratório Python
 
-# Alan
-# Rodrigo
+- IDE: 
+https://code.visualstudio.com/download
 
-
-- IDE: https://code.visualstudio.com/download
 - Git: https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git
+
 - Python: Versão 3.6
+
   - Configurar VS: [link](https://stackoverflow.com/questions/43313903/how-to-setup-visual-studio-code-to-find-python-3-interpreter-in-windows-10)
+
   - Orientação a Objetos: [link](http://pythonclub.com.br/introducao-classes-metodos-python-basico.html)
+
 - Tutorial Python: https://wiki.python.org.br/AprendaProgramar
-- Dicas Git
-  - Baixar um branche específico
+
+## Comandos Git
+
+### Clone
+
+- Baixar um branche específico
+
   >git clone [repositorio] -b [nomedobrache]
-    - Exemplo
-      >git clone https://github.com/agileclass/python-games.git -b taboada
-  - Obter últimas alterações
-  > git pull
-  - Verificar alterações locais
-  > git status
-  - Adicionar alterações
+
+  - Exemplo
+
+  git clone https://github.com/agileclass/python-games.git -b taboada
+
+### Alterações
+
+- Obter últimas alterações
+
+  >git pull
+
+- Verificar alterações locais
+
+  >git status
+  
+- Adicionar alterações
+
   > git add .
-  - Verifique nome do seu branch atual
+
+- Registrar comentários
+
+  >git commit -m "comentário"
+
+- Adicionar e fazer commit
+
+  >git commit -a -m 'comentario'
+
+- Enviar ao repositório remoto
+
+  >git push
+
+### Branch
+
+- Verifique nome do branch atual
+
   > git branch
 
-  - Registrar comentários
-  >git commit -m "comentário"
-  - Enviar ao repositório remoto
-  >git push 
-  - Aceitar chave pública
+- Criar brach
+
+  > git checkout -b nomedobranch
+
+- Trocar de branch
+
+  > git checkout nomedobranch
+
+- Fazer merge a partir do master
+
+  >git checkout master
+
+  >git merge nomedobranch
+
+### Chaves de Acesso
+- Aceitar chave pública
   > ssh-add
-
-- Executar Testes
-
+## Testes
+- Executar todos do testes da pasta 'Games'
 >py -m unittest discover Games
