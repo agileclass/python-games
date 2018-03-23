@@ -1,8 +1,6 @@
-# Teste de comentário
-# Segundo commit
 import random
 
-class Taboada(object):
+class Labirinto(object):
 
     v1 = None
     v2 = None
@@ -26,7 +24,7 @@ class Taboada(object):
 
 if __name__ == '__main__':
     print("BEM VINDO AO JOGO TABOADA")
-    t = Taboada()
+    t = Labirinto()
     t.gerarDesafio()
     resultado = input("Quanto é: " + str(t.v1) + "x" + str(t.v2) + "? ")
     if resultado == str(t.getResultado()):
