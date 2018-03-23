@@ -87,6 +87,16 @@ https://code.visualstudio.com/download
 
   > git branch --no-merged
 
+### Tags
+
+- Criar tag local
+
+  >git tag [tagname]
+
+- Enviar tag para o repositório remoto
+
+  >git push origin --tags
+
 ## Testes Unitários
 
 - Executar todos do testes da pasta 'Games'
