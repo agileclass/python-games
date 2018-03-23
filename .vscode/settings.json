@@ -6,6 +6,5 @@
         "-p",
         "test*.py"
     ],
-    "python.unitTest.unittestEnabled": true,
-    "python.pythonPath": "C:\\Users\\Thiago\\AppData\\Local\\Programs\\Python\\Python36-32\\python.exe"
+    "python.unitTest.unittestEnabled": true
 }
