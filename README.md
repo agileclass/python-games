@@ -73,11 +73,13 @@ https://code.visualstudio.com/download
 
 - Enviar alterações pela primeira vez
 
- > git push --set-upstream origin nomedobranch
+  > git push --set-upstream origin nomedobranch
 
-- Remover um branch local
+- Remover um branch local e remoto
 
-> git branch -d nomedobranch
+  > git branch -d nomedobranch
+
+  > git push origin --delete iss53
 
 ### Chaves de Acesso
 - Aceitar chave pública
