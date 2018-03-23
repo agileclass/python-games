@@ -10,11 +10,20 @@
   - Configurar VS: [link](https://stackoverflow.com/questions/43313903/how-to-setup-visual-studio-code-to-find-python-3-interpreter-in-windows-10)
   - Orientação a Objetos: [link](http://pythonclub.com.br/introducao-classes-metodos-python-basico.html)
 - Tutorial Python: https://wiki.python.org.br/AprendaProgramar
-- Comandos básicos Git
-  - Obter alterações
-  >git pull
+- Dicas Git
+  - Baixar um branche específico
+  >git clone [repositorio] -b [nomedobrache]
+    - Exemplo
+      >git clone https://github.com/agileclass/python-games.git -b taboada
+  - Obter últimas alterações
+  > git pull
+  - Verificar alterações locais
+  > git status
   - Adicionar alterações
   > git add .
+  - Verifique nome do seu branch atual
+  > git branch
+
   - Registrar comentários
   >git commit -m "comentário"
   - Enviar ao repositório remoto
