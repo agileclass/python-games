@@ -81,6 +81,10 @@ https://code.visualstudio.com/download
 
   > git push origin --delete iss53
 
+- Listar branches que não possui merge
+
+  > git branch --no-merged
+
 ### Chaves de Acesso
 - Aceitar chave pública
   > ssh-add
