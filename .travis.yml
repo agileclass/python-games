@@ -1,0 +1,29 @@
+language: python
+python:
+  - 3.6
+install:
+  - pip3 install coveralls
+
+addons:
+  sonarcloud:
+    organization: "agileclass" # the key of the org you chose at step #3
+    token:
+      secure: 506dbf36102244307fc8a422efbec1ed5ce4ae85 # encrypted value of your token
+
+script:
+  - coverage  run --omit=Games/test*  -m unittest discover -v Games
+  - sonar-scanner
+
+  #coverage report -m
+  #coverage html
+
+
+after_success:
+  coveralls
+    
+notifications:
+  email:
+    recipients:
+      - botelhojp@gmail.com
+    on_success: change
+    on_failure: always
