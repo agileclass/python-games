@@ -63,6 +63,10 @@ https://code.visualstudio.com/download
 
   > git checkout -b nomedobranch
 
+- Enviar alterações pela primeira vez
+
+  > git push --set-upstream origin nomedobranch
+
 - Trocar de branch
 
   > git checkout nomedobranch
@@ -72,10 +76,6 @@ https://code.visualstudio.com/download
   >git checkout master
 
   >git merge nomedobranch
-
-- Enviar alterações pela primeira vez
-
-  > git push --set-upstream origin nomedobranch
 
 - Remover um branch local e remoto
 
