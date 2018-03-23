@@ -71,6 +71,14 @@ https://code.visualstudio.com/download
 
   >git merge nomedobranch
 
+- Enviar alterações pela primeira vez
+
+ > git push --set-upstream origin nomedobranch
+
+- Remover um branch local
+
+> git branch -d nomedobranch
+
 ### Chaves de Acesso
 - Aceitar chave pública
   > ssh-add
