@@ -87,9 +87,28 @@ https://code.visualstudio.com/download
 
   > git branch --no-merged
 
-### Chaves de Acesso
-- Aceitar chave pública
-  > ssh-add
-## Testes
+## Testes Unitários
+
 - Executar todos do testes da pasta 'Games'
->py -m unittest discover Games
+
+  >py -m unittest discover Games
+
+## Cobertura de Código
+
+- Verificar Cobertura de Testes
+
+  >coverage  run --omit=Games/test*  -m unittest discover -v Games
+
+- Relatório de Cobertura de Testes (Formato Texto)
+
+  >coverage report -m
+
+- Relatório de Cobertura de Testes (Formato HTML)
+
+  >coverage html
+
+  ### Chaves de Acesso
+
+- Aceitar chave pública
+
+  > ssh-add
