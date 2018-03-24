@@ -47,6 +47,10 @@ if __name__ == '__main__':
         esquerda = testVar.count('E')
         y = direita - esquerda
         x = baixo - cima
+        if x < 0 or y < 0:
+            l.mensagem = 'Que pena! Tente novamente'
+            l.isAcerto = False
+            l.countErro = l.countErro + 1
         if y == 3 and x == 3:
             l.mensagem = 'Parabens! Voce atingiu o objetivo. Você acertou em '+ str(l.countErro) + ' tentativas'
             l.isAcerto = True
