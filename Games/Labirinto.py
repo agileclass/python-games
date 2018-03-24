@@ -53,7 +53,7 @@ if __name__ == '__main__':
         else:
             l.mensagem = 'Que pena! Tente novamente'
             l.isAcerto = False
-            l.countErro = countErro + 1
+            l.countErro = l.countErro + 1
         a[x][y] = '*' 
         a[0][0] = '-'
         for t in range(l.n):
