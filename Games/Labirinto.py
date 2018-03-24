@@ -58,10 +58,9 @@ if __name__ == '__main__':
             l.mensagem = 'Que pena! Tente novamente'
             l.isAcerto = False
             l.countErro = l.countErro + 1
-        a[x][y] = '*' 
+        if x >= 0 and y >= 0:
+            a[x][y] = '*' 
         a[0][0] = '-'
         for t in range(l.n):
             print(a[t])
         print(l.mensagem)
-
-
