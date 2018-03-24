@@ -26,8 +26,11 @@ if __name__ == '__main__':
         else:
             print("Você errou!!!")
         elementos = elementos + 1        
-    percentual = round((acumulador / 6) * 100, 2)
-    print("Você acertou " + str(percentual) + "% questões!!")
+    percentual = round((acumulador / 5) * 100, 2)
+    if(percentual==0):
+        print("Você errou todas as questões fera, tem que estudar mais, porém não desista!!! ")
+    else:
+        print("Você acertou " + str(percentual) + "% questões!!")
     
         
     
