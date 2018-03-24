@@ -2,4 +2,4 @@
 .coverage
 htmlcov
 .DS_Store
-~$burndown.xlsm
+~$*
