@@ -5,20 +5,14 @@ from Labirinto import Labirinto
 class LaribirintoTest(unittest.TestCase):
     
     def test_ConstrutorInicializado(self):
-        t = Labirinto()
-        self.assertEqual(0, t.getV1())
-        self.assertEqual(0, t.getV2())
+        l = Labirinto()
+        self.assertEqual(4, l.getm())
+        self.assertEqual(4, l.getn())
 
-    def test_Desafio(self):
-        t = Labirinto()
-        t.gerarDesafio()
-        self.assertNotEqual(0, t.getV1())
-        self.assertNotEqual(0, t.getV2())
-
-    def test_Resultado(self):
-        t = Labirinto()
-        t.gerarDesafio()
-        self.assertEqual(t.getV1() * t.getV2(), t.getResultado())
+    def test_Matriz(self):
+        l = Labirinto()
+        self.assertNotEqual(0, l.getm())
+        self.assertNotEqual(0, l.getn())
 
 if __name__ == '__main__':
     unittest.main()
