@@ -20,8 +20,8 @@ class Capitais(object):
         self.respostas.append("Florianópolis")
         
     def verifica_resposta(self, idx, resposta):
-        if resposta.upper().strip() == self.respostas[idx].upper().strip():
-            return True
+        return resposta.upper().strip() == self.respostas[idx].upper().strip()
+        
 
 if __name__ == '__main__':
     acertos = 0
