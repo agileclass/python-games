@@ -34,7 +34,7 @@ if __name__ == '__main__':
         resultado = input("Quanto é: " + str(t.v1) + "x" + str(t.v2) + "? ")
         if resultado == str(t.getResultado()):
             print('Parabéns!')
-            pontuacao1 = pontuacao + 1
+            pontuacao = pontuacao + 1
         else:
             print('Errado, ' + str(t.v1) + "x" + str(t.v2) + " é igual a " + str(t.getResultado()))
             print('Pontuação: ' + str(pontuacao))
