@@ -1,6 +1,6 @@
-﻿# Python Games
+﻿# Laboratório Python
 
-[![Build Status](https://travis-ci.org/agileclass/python-games.svg?branch=master)](https://travis-ci.org/agileclass/python-games)[![Coverage Status](https://coveralls.io/repos/github/agileclass/python-games/badge.svg?branch=master)](https://coveralls.io/github/agileclass/python-games?branch=master)[![N|Solid](https://sonarcloud.io/api/project_badges/measure?project=python-games&metric=alert_status)](https://sonarcloud.io/dashboard?id=python-games)
+[![Build Status](https://travis-ci.org/agileclass/lab-python.svg?branch=master)](https://travis-ci.org/agileclass/lab-python)[![Coverage Status](https://coveralls.io/repos/github/agileclass/python-games/badge.svg?branch=master)](https://coveralls.io/github/agileclass/python-games?branch=master)[![N|Solid](https://sonarcloud.io/api/project_badges/measure?project=python-games&metric=alert_status)](https://sonarcloud.io/dashboard?id=python-games)
 
 - IDE: 
 https://code.visualstudio.com/download
