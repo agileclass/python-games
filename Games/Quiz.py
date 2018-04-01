@@ -95,22 +95,22 @@ class Quiz(object):
 
                 if self.verificar_resposta(i, resposta):
                     acertos = acertos + 1
-                    print('Resposta correta!\n')
+                    print("Resposta correta!\n")
                 else:
                     erros.append(i)
-                    print('Reposta errada!\n')
+                    print("Resposta errada!\n")
 
-            print('------------- RESULTADO ---------------\n')
+            print("------------- RESULTADO ---------------\n")
             if acertos == 1:
-                print('Você acertou ' + str(acertos) + ' pergunta.')
+                print("Você acertou " + str(acertos) + " pergunta.")
             else:
-                print('Você acertou ' + str(acertos) + ' perguntas.')
+                print("Você acertou " + str(acertos) + " perguntas.")
 
             for n in range(0, len(erros)):
                 print(
                     "Você errou a pergunta \"" + self.perguntas[erros[n]] + "\". Resposta: " + self.respostas[erros[n]])
 
-            print('\n------------- FIM ---------------\n')
+            print("\n------------- FIM ---------------\n")
 
 
 if __name__ == '__main__':
